@@ -6,12 +6,7 @@ C99 compatible compiler (I use cc, you may need to tweak the buildscript)
 C++11 compatible compiler (I use g++, you may need to tweak the buildscript)
 
 Raylib (www.raylib.com),
-Raylib needs to be placed adjacent to this directory:
-
-/raylib
-
-/procedural-island...
-
+Raylib needs to be placed in the same folder as this directory
 
 Compile: run the script for your os
 
