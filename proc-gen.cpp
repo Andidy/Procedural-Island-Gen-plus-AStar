@@ -241,9 +241,9 @@ void UpdateMapDrawData(GameState *gs)
     if (gs->mapmode == HEIGHTMAP)
     {
       if (e > 20)
-        gs->map_data[i] = (Color){(u8)e, (u8)e, (u8)e, 255};
+        gs->map_data[i] = /*(Color)*/{(u8)e, (u8)e, (u8)e, 255};
       else
-        gs->map_data[i] = (Color){(u8)e, (u8)e, 255, 255};
+        gs->map_data[i] = /*(Color)*/{(u8)e, (u8)e, 255, 255};
     }
     else if (gs->mapmode == SLOPEMAP)
     {
@@ -362,8 +362,8 @@ int main(void)
   gs->seed = 1234;
   gs->new_target_set = false;
   gs->invalid_player_pos = false;
-  gs->player_pos = (Vector2){128, 128};
-  gs->target_pos = (Vector2){0, 0};
+  gs->player_pos = /*(Vector2)*/{128, 128};
+  gs->target_pos = /*(Vector2)*/{0, 0};
 
   // Generate World ------------------------------------------------------------
 
@@ -496,11 +496,11 @@ int main(void)
 
       for (std::list<int>::iterator it=gs->path->begin(); it != gs->path->end(); ++it)
       {
-        DrawRectangleV(Vector2Scale((Vector2){(f32)(*it % gs->map_width), (f32)(*it / gs->map_width)}, scale), (Vector2){scale, scale}, ORANGE);
+        DrawRectangleV(Vector2Scale(/*(Vector2)*/{(f32)(*it % gs->map_width), (f32)(*it / gs->map_width)}, scale), /*(Vector2)*/{scale, scale}, ORANGE);
       }
     }
 
-    DrawRectangleV(Vector2Scale(gs->player_pos, scale), (Vector2){scale, scale}, MAGENTA);
+    DrawRectangleV(Vector2Scale(gs->player_pos, scale), /*(Vector2)*/{scale, scale}, MAGENTA);
 
     char textstr[1024];
     i32 cursorx = (i32)trunc(cursorposition.x);
