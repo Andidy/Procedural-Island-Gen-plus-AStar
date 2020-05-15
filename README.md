@@ -6,14 +6,15 @@ Raylib needs to be placed in the same folder as this directory
 
 ### Compile: 
 
-run the script for your os
+Linux: 1. chmod +x build-linux.sh (if not already executable) 2. ./build-linux.sh
 
+Windows: build-windows.bat
 
 ### Run: 
 
-run proc-gen
+Linux: ./proc-gen
 
-
+Windows: proc-gen.exe
 
 
 ### Inspirations and Public Domain code accreditation:
