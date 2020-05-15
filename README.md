@@ -1,4 +1,6 @@
 # Procedural-Island-Gen-plus-AStar
+I worked on this project with a friend for University Project, as I currently wish to remain anonymous I dont link their github, since it could be used to identify me, though I do have their permission to post the code, their contribution was primarily the A* implementation.
+
 ### Requirements:
 
 Raylib (www.raylib.com),
