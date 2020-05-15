@@ -1,5 +1,5 @@
 # Procedural-Island-Gen-plus-AStar
-Requirements:
+### Requirements:
 
 C99 compatible compiler (I use cc, you may need to tweak the buildscript)
 
@@ -8,15 +8,19 @@ C++11 compatible compiler (I use g++, you may need to tweak the buildscript)
 Raylib (www.raylib.com),
 Raylib needs to be placed in the same folder as this directory
 
-Compile: run the script for your os
+### Compile: 
+
+run the script for your os
 
 
-Run: run proc-gen
+### Run: 
+
+run proc-gen
 
 
 
 
-Inspirations and Public Domain code accreditation:
+### Inspirations and Public Domain code accreditation:
 
 Overall Use of Noise: https://www.redblobgames.com/maps/terrain-from-noise/
 
